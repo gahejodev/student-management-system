@@ -1,23 +1,23 @@
-# ClassTrack — Offline Student Management System
+# ClassTrack
 
-A mobile-friendly school administration portfolio demo built with HTML, CSS and vanilla JavaScript. No server or API key required.
+A browser-based school record demo for practicing student lists, attendance and marks. It uses HTML, CSS and JavaScript and does not need a server.
 
-## Features
-- Register students; prevent duplicate roll numbers within a class
-- Search by name, roll or class
-- Date-based attendance and class filtering
-- Enter marks, calculate percentages, export CSV results
-- Dashboard statistics and JSON backup export
-- Local browser storage
+## What it does
 
-## Run
-Open `index.html` in a modern browser.
+- Add students and check for duplicate roll numbers in the same class.
+- Search records by student name, roll number or class.
+- Mark attendance for a selected date and filter by class.
+- Enter marks and calculate percentages.
+- Export results as CSV and save a JSON backup.
 
-## GitHub Pages
-Settings → Pages → Deploy from branch → main → /(root).
+## Run it
 
-## Privacy
-Portfolio demo only; **not suitable for real student personal information**. Browser data is unencrypted, not synchronized, and may be lost if storage is cleared. Backup export exists, but import is not implemented.
+Open `index.html` in a recent browser. Records are saved in that browser using localStorage.
+
+## Please note
+
+This is a portfolio demo, not a secure school database. Student information is stored locally without encryption, and it is not synced between devices. Clearing browser data can remove the records. JSON backup export is available, but importing a backup is not implemented. Please use sample data rather than real student details.
 
 ## License
-MIT.
+
+MIT. See [LICENSE](LICENSE).
